@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: nginx-app
-          image: phanikumary1995/nginx-eks-app
+          image: nethaji/nginx-app
           imagePullPolicy: Always
           ports:
             - name: http
